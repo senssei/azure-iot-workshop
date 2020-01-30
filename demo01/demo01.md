@@ -79,3 +79,9 @@ sudo iotedge check
 sudo iotedge list
 ```
 ![Edge Check](img/iotedge-list.png)
+
+
+## Sources
+
+* https://docs.microsoft.com/en-us/azure/iot-edge/quickstart-linux
+* https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-linux
