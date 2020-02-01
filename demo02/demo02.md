@@ -33,6 +33,9 @@ The IoT Edge extension tries to pull your container registry credentials from Az
 
 ### Login to docker registry
 
+> Before first login rename property **repository** in `demo02\src\EdgeSolution\modules\SampleModule\module.json` to
+correct image tag - f.e.  from `iotedgeimages.azurecr.io/samplemodule` to `<ACR login server>/samplemodule`
+
 ```bash
 docker login -u <ACR username> -p <ACR password> <ACR login server>
 ```
