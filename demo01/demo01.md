@@ -54,7 +54,7 @@ sudo systemctl restart iotedge
 ## Verify successful instalation 
 
 ```
-systemctl status iotedge
+sudo systemctl status iotedge
 ```
 
 ![Edge Check](img/demon-status.png)
